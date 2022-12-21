@@ -29,7 +29,8 @@ class FacebookGraphAPI:
                 break
             url = next
             counter += 1
-
+            
+        return all_data
 
 if __name__=="__main__":
     api = FacebookGraphAPI(
